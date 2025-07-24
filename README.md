@@ -1,3 +1,5 @@
+A client-server login and messaging architecture.
+
 ## Project title: CipherComm 
 
 ### Project Description: 
