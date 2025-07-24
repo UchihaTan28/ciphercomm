@@ -10,9 +10,9 @@ Included all the files
 Client-server architecture, public and private keys:
 
 - The system consists of a client and a server Java program, and they must be named Client.java and Server.java respectively. They are started by running the commands
- - java Server port
- - java Client host port userid
- - specifying the hostname and port number of the server, and the userid of the client.
+ - `java Server port`
+ - `java Client host port userid`
+   - specifying the hostname and port number of the server, and the userid of the client.
 
 - The server is a temporary store for all the messages sent by agents that are not yet read by their recipients. The server program is always running once started and listens for incoming connections at the port specified. When a client is connected, the server handles the request, then waits for the next request (i.e., the server never terminates). For simplicity, you
 can assume that only one client will connect to the server at any one time.
